@@ -25,7 +25,7 @@ const UserInput = (props) => {
     setUserInput((prevInput) => {
       return {
         ...prevInput,
-        [input]: value, // it is a js syntax, from its help we can dynamically update the state object
+        [input]: + value, // it is a js syntax, from its help we can dynamically update the state object, + will convert the value into a number
       };
     });
   }; //it is used for all inout functions, value means entered value
