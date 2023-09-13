@@ -9,8 +9,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #242a28; */
-  background: radial-gradient(#303b37, #1a1f1d);
+  background: radial-gradient(#88a49a, #000000);
   color: #e1eeeb;
 }
 
@@ -18,7 +17,6 @@ body {
   text-align: center;
   margin: 3rem auto;
 }
-
 
 .header img {
   width: 5rem;
